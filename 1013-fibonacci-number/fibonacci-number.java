@@ -12,30 +12,30 @@ class Solution {
         // }
         // return sum;
 
-    //     if(n==0 || n==1)
-    //     {
-    //         return n;
-    //     }
-
-    //     return fib(n-1)+fib(n-2);
         if(n==0 || n==1)
         {
             return n;
         }
+
+        return fib(n-1)+fib(n-2);
+    //     if(n==0 || n==1)
+    //     {
+    //         return n;
+    //     }
     
-        int a=0;
-        int b=1;
-        int c=0;
-        //int n=3;
-        for(int i=0;i<n-1;i++)
-        {
-            c=a+b;
-            a=b;
-            b=c;
-           // System.out.println(c);
-        }
-       // System.out.println(c);
-       return c;
+    //     int a=0;
+    //     int b=1;
+    //     int c=0;
+    //     //int n=3;
+    //     for(int i=0;i<n-1;i++)
+    //     {
+    //         c=a+b;
+    //         a=b;
+    //         b=c;
+    //        // System.out.println(c);
+    //     }
+    //    // System.out.println(c);
+    //    return c;
      }
 
 }
